@@ -8,6 +8,7 @@
     "jwsnav": {
       "scope": "html",
       "prefix": "jwsnav",
+      "description": "A snippet to add navigation",
       "body": [
         "<nav>",
         "<ul>",
