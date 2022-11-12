@@ -2,6 +2,20 @@
     "hello": {
       "scope": "javascript,html",
       "prefix": "hello",
-      "body": "$BLOCK_COMMENT_START Hello World $BLOCK_COMMENT_END"
+      "body": "$BLOCK_COMMENT_START Hello World $BLOCK_COMMENT_END",
+    },
+
+    "jwsnav": {
+      "scope": "html",
+      "prefix": "jwsnav",
+      "body": [
+        "<nav>",
+        "<ul>",
+        "<li><a href=\"${1:url}\">${2:name}</a></li>",
+        "<li><a href=\"${3:url}\" class=\"active\">${4:name}</a></li>",
+        "<li><a href=\"${5:url}\">${6:name}</a></li>",
+        "</ul>",
+        "</nav>"
+      ]
     }
   }
