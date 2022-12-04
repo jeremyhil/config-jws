@@ -1,10 +1,29 @@
 {
-    "hello": {
-      "scope": "javascript,html",
-      "prefix": "hello",
-      "body": "$BLOCK_COMMENT_START Hello World $BLOCK_COMMENT_END",
-    },
-
+  "jwspage": {
+    "scope": "html",
+    "prefix": "jwspage",
+    "description": "A snippet to add page sections",
+    "body": [
+      "<header>",
+      "<h1>${1:heading1}</h1>",
+      "</header>",
+      "<main>",
+      "<div class=\" \">",
+      "</div>",
+      "<div class=\" \">",
+      "</div>",
+      "</main>",
+      "<footer>",
+      "<div class=\"social_icons\">",
+      "(a>img)*3"
+      "</div>",
+      "<div class=\"contact_panel\">",
+      "</div>",
+      "<div class=\"copyrights\">",
+      "</div>",
+      "</footer>"
+    ]
+},
     "jwsnav": {
       "scope": "html",
       "prefix": "jwsnav",
@@ -19,4 +38,4 @@
         "</nav>"
       ]
     }
-  }
+}
