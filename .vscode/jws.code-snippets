@@ -1,4 +1,4 @@
-{
+{  // JasmineWS.uk Snippet file v1.0.0 | MIT License | github.com/jasminedesign/jwsone
   "jwspage": {
     "scope": "html",
     "prefix": "jwspage",
@@ -23,7 +23,7 @@
       "<div class=\"contact_panel\">",
       "</div>",
       "<div class=\"copyrights\">",
-      "<p>Copyright &copy; <time datetime=\"2022\">2022</time> </p>",
+      "<p>Copyright &copy; <time datetime=\"2023\">2023</time> </p>",
       "</div>",
       "</footer>"
     ]
@@ -41,5 +41,21 @@
         "</ul>",
         "</nav>"
       ]
-    }
+},
+    "jwsform": {
+      "scope": "html",
+      "prefix": "jwsform",
+      "description": "A snippet to add form",
+      "body": [
+        "<form>",
+        "<label for=\"name\">Label text<span class=\"required\">* </span></label>",
+        "<input type=\"text\"id=\"name\" name=\"name\" value=\"\">",
+        "<label for=\"comments\">Label text<span class=\"required\">* </span></label>",
+        "<textarea rows=\"5\" cols=\"20\" id=\"comments\" name=\"comments\"></textarea>",
+          "<button type=\"submit\" value=\"Submit\">Submit</button>",
+          "<p class=\"error\">This is a form Error Message.</p>",
+          "<p class=\"required\">* required field.</p>",
+        "</form>"
+    ]
+}
 }
